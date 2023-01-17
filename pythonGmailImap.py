@@ -15,8 +15,8 @@ GOOGLE_ACCOUNTS_BASE_URL = "https://accounts.google.com"
 GOOGLE_CLIENT_ID = ""
 GOOGLE_CLIENT_SECRET = ""
 GOOGLE_REFRESH_TOKEN = ""
-GOOGLE_EMAIL = ''
-VIEW_X_LAST = 10
+GOOGLE_EMAIL = '' # The e-mail used to obtain the above credentials
+VIEW_X_LAST = 10 # Information from the last 10 received e-mails will be displayed
 
 
 def call_refresh_token(client_id, client_secret, refresh_token):
