@@ -24,12 +24,15 @@ python2 oauth2.py --generate_oauth2_token --client_id=<your client id> --client_
 > The original oauth2.py file can be found [here](https://github.com/google/gmail-oauth2-tools/tree/master/python).
 
 This command will generate a link to allow the IMAP to be used on you e-mail account, as follows:
+
 ![](https://github.com/rcbonz/Python-Gmail-IMAP/blob/main/gmail_imap_005.png?raw=true)
 
 Access the link in a browser and follow the steps till you get the Authorization Code and copy it. Go back to the terminal and paste it:
+
 ![](https://github.com/rcbonz/Python-Gmail-IMAP/blob/main/gmail_imap_006.png?raw=true)
 
 Now you have the refresh token that you'll need to run the IMAP client.
+
 ![](https://github.com/rcbonz/Python-Gmail-IMAP/blob/main/gmail_imap_007.png?raw=true)
 
 Paste all credentials in the `pythonGmailImap.py` and run it:
